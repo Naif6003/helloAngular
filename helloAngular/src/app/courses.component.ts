@@ -14,7 +14,7 @@ let courses = require("./service.component")
                     course number: {{course.number}} <br/>
                     course units: {{course.units}} <br/>
                     course instructor: {{course.instructor}} <br/>            
-                    course price: {{course.price | number }}
+                    course price: {{course.price}}
                 </div>
             </div>
         <br/>
@@ -23,7 +23,7 @@ let courses = require("./service.component")
     <input [(ngModel)]="inputValue" (keyup.enter)="onKeyUp()" />
     `
 
-})
+})  
 
 export class CoursesComponent {
     title = "List of Courses: "

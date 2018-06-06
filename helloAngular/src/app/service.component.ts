@@ -6,7 +6,7 @@ module.exports = [
         units: 3,
         instructor: "Parviz",
         img: "https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350",
-        price: 25087
+        price: 250.87
     },
     {
         id: 1,
@@ -15,7 +15,7 @@ module.exports = [
         units: 3,
         instructor: "Mohammed",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0_2nqm0H20gpO-Pf9BsBwuAYt3McWcb-6rFs37i244h71Lyrnkg",
-        price: 35064
+        price: 350.64
     },
     {
         id: 0,
@@ -24,6 +24,6 @@ module.exports = [
         units: 3,
         instructor: "Sun",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rBpXcZltQDFWdjhRPxyfz_OSBVsJRiQaEqEP76ZjY2qaXNyf",
-        price: 20050
+        price: 200.50
     }
 ]
