@@ -1,6 +1,3 @@
 <courses></courses>
 
-<favorite [isFavorite]="post.isFavorite" (change)="onFavoriteChange()"></favorite>
-
-
-
+<favorite style="color:LightBlue;" [is-favorite]="post.isSelected" (change)="onFavoriteChange($event)"></favorite>
