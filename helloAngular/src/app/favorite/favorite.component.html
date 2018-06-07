@@ -1,6 +1,6 @@
 
 <button style="border: none; background-color: transparent; cursor: pointer;" (click)="onClick()">
-  <i [class.fa-star]="isSelected" [class.fa-star-o]="!isSelected" class="fa fa-3x" ></i> 
-  </button>
-
-  <input [(ngModul)]="username" />
+  <i [class.fa-star]="isSelected" [class.fa-star-o]="!isSelected" class="fa fa-3x" ></i>  
+  </button> 
+<br/>
+<input [(ngModel)]="username" (keyup.enter)="onInput()"/>

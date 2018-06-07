@@ -1,3 +1,8 @@
 <courses></courses>
+<course></course>
+<br/>
+<favorite [is-favorite]="post.isSelected" (change)="onFavoriteChange($event)"
+           [inputValue]="post.username" ></favorite>
 
-<favorite style="color:LightBlue;" [is-favorite]="post.isSelected" (change)="onFavoriteChange($event)"></favorite>
+<br/>
+<i class="fa fa-car fa-3x" ></i>  
