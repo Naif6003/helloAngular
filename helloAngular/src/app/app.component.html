@@ -1,19 +1,5 @@
-<!-- <courses></courses>
-<course></course>
-<br/>
-<favorite [is-favorite]="post.isSelected" (change)="onFavoriteChange($event)"
-           [inputValue]="post.username" ></favorite>
-
-<br/>
-<i class="fa fa-car fa-3x" ></i>   -->
-
-<!-- <bootstrap-panel> 
-    <ng-container class="heading">heading</ng-container>
-    <div class="body">
-        <h2>Body</h2>
-        <b>Same content here</b>
-    </div>
-</bootstrap-panel> -->
 
 
-<heart [heart]='tweet.isLiked'  [count]="tweet.likesCount" (click)="increment()"></heart>
+<div *ngIf="courses.length > 0; then coursesList else noCourses" >   </div>
+<ng-template #coursesList > List of Courses </ng-template>
+<ng-template #noCourses > No courses yet </ng-template>
